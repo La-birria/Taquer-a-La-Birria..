@@ -2,6 +2,7 @@ body{
     background-image: url(imgs/Fondo4.jpg);
     opacity: 0.75;
     background-size: 650px; 
+    margin: 0%;
   }
 html{
     font-family: "Ranchers", sans-serif;

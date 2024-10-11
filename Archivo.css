@@ -1,0 +1,138 @@
+.contenedor2{
+    background-color: rgb(234, 173, 92);
+    font-size: 20px;
+    padding: 25px;
+    width: 1200px;
+    border: 2px solid #f1a60f;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#articulo{
+background-color: rgb(246, 139, 0);
+font-size: 60px;
+}
+/*pantalla de inicio (código de chat-gpt*/
+body {
+  font-family: Ranchers, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #f4ad6b;
+  padding: 15px 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content:flex-end;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+.hero {
+  height: 40vh;
+ background: url(imgs/e77a9ac0c6cf71149dc78e7c48aa3f57\ \(1\).jpg) no-repeat center/cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.hero h1 {
+  font-size: 100px;
+  font:  Ranchers sans-serif;
+  color: black;
+}
+.features {
+  padding: 50px;
+  background-image: url(imgs/Estructura.jpg);
+  align-items: center;
+}
+.features ul {
+  list-style-type: square;
+}
+.features ul li {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+footer {
+  background-color: #f4ad6b;
+  color: rgb(7, 7, 7);
+  text-align: center;
+  padding: 1px ;
+  font-size: 25px;
+}
+.manolo{
+  padding: up 10%;;
+}
+/* Botón de registrarme */ 
+.boton {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 24px;
+  font-size: 18px;
+  color: rgb(254, 133, 68);
+  border: 2px solid rgb(254, 133, 68);
+  border-radius: 34px;
+  background-color: transparent;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  overflow: hidden;
+}
+
+.boton::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: inherit;
+  scale: 0;
+  z-index: -1;
+  background-color: rgb(252, 207, 109);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.boton:hover::before {
+  scale: 3;
+}
+
+.boton:hover {
+  color: #ffffff;
+  scale: 1.1;
+  box-shadow: 0 0px 20px rgba(224, 218, 206, 0.997)
+}
+
+.boton:active {
+  scale: 1;
+}
+.card{
+  width: 450px;
+  background-color: #f4ad6b;
+  border-radius: 10px;
+  font-size: 55px;
+}
+.card1{
+  background-color: #f4ad6b;
+  border-radius: 10px;
+  width: 1250px;
+  font-size: 50px;
+}
+.boton{
+  position: relative;
+  top: -70px;
+  left: 200px;
+}

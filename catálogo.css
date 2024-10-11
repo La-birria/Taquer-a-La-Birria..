@@ -1,0 +1,628 @@
+body{
+    background-image: url(imgs/Fondo4.jpg);
+    opacity: 0.75;
+    background-size: 650px; 
+  }
+html{
+    font-family: "Ranchers", sans-serif;
+}
+/* From Uiverse.io by Javierrocadev */ 
+.card {
+    width: 300px;
+    height: 350px;
+    background: #ffd166;
+    color: #073b4c;
+    font-weight: 600;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: relative;
+    transition: all .5s ease;
+  }
+  
+  .card::before {
+    content: "3.00$";
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 35%;
+    right: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(#fe0000);
+    border-radius: 50%;
+    background-color:  rgb(255,148,0);
+    color: #fe5100;
+    font-weight: 800;
+    transition: all .5s ease;
+  }
+  
+  .card__image {
+    width: initial;
+    height: 150px;
+    background: rgb(255, 158, 0);
+    background: linear-gradient(163deg, rgb(255,158,0) 18%, rgb(255, 158, 0) 79%);
+    transition: all .5s ease;
+  }
+  
+  .title {
+    font-weight: 800;
+    font-size: 1.4em;
+  }
+  
+  .card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 10px;
+  }
+  
+  .card:hover {
+    border-top-left-radius: 35px;
+    box-shadow: 5px 5px 0px 0px rgb(255, 158, 0), 10px 10px 0px 0px #fe5100, 15px 15px 0px 0px rgb(255, 158, 0), 5px 5px 15px 5px rgba(0,0,0,0);
+  }
+  
+  .card:hover .card__image {
+    border-top-left-radius: 25px;
+  }
+  
+  .card:hover::before {
+    transform: scale(1.3) rotate(-30deg);
+  }
+  /* From Uiverse.io by Javierrocadev */ 
+   .contenedor5{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+   
+   }
+  .card2 {
+    width: 300px;
+    height: 350px;
+    background: #ffd166;
+    color: #073b4c;
+    font-weight: 600;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: relative;
+    transition: all .5s ease;
+  }
+  
+  .card2::before {
+    content: "4.75$";
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 35%;
+    right: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(#fe0000);
+    border-radius: 50%;
+    background-color:  rgb(255,148,0);
+    color: #fe5100;
+    font-weight: 800;
+    transition: all .5s ease;
+  }
+  
+  .card2__image {
+    width: initial;
+    height: 150px;
+    background: rgb(255, 158, 0);
+    background: linear-gradient(163deg, rgb(255,158,0) 18%, rgb(255, 158, 0) 79%);
+    transition: all .5s ease;
+  }
+  
+  .title2 {
+    font-weight: 800;
+    font-size: 1.4em;
+  }
+  
+  .card2__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 10px;
+  }
+  
+  .card2:hover {
+    border-top-left-radius: 35px;
+    box-shadow: 5px 5px 0px 0px rgb(255, 158, 0), 10px 10px 0px 0px #fe5100, 15px 15px 0px 0px rgb(255, 158, 0), 5px 5px 15px 5px rgba(0,0,0,0);
+  }
+  
+  .card2:hover .card2__image {
+    border-top-left-radius: 25px;
+  }
+  
+  .card2:hover::before {
+    transform: scale(1.3) rotate(-30deg);
+  }
+   /* From Uiverse.io by Javierrocadev */ 
+  .card3 {
+    width: 300px;
+    height: 350px;
+    background: #ffd166;
+    color: #073b4c;
+    font-weight: 600;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: relative;
+    transition: all .5s ease;
+  }
+  
+  .card3::before {
+    content: "4.75$";
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 35%;
+    right: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(#fe0000);
+    border-radius: 50%;
+    background-color:  rgb(255,148,0);
+    color: #fe5100;
+    font-weight: 800;
+    transition: all .5s ease;
+  }
+  
+  .card3__image {
+    width: initial;
+    height: 150px;
+    background: rgb(255, 158, 0);
+    background: linear-gradient(163deg, rgb(255,158,0) 18%, rgb(255, 158, 0) 79%);
+    transition: all .5s ease;
+  }
+  
+  .title3 {
+    font-weight: 800;
+    font-size: 1.4em;
+  }
+  
+  .card3__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 10px;
+  }
+  
+  .card3:hover {
+    border-top-left-radius: 35px;
+    box-shadow: 5px 5px 0px 0px rgb(255, 158, 0), 10px 10px 0px 0px #fe5100, 15px 15px 0px 0px rgb(255, 158, 0), 5px 5px 15px 5px rgba(0,0,0,0);
+  }
+  
+  .card3:hover .card3__image {
+    border-top-left-radius: 25px;
+  }
+  
+  .card3:hover::before {
+    transform: scale(1.3) rotate(-30deg);
+  }
+  /* From Uiverse.io by Javierrocadev */
+
+  .contenedor6{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+   }
+
+  .card4 {
+    width: 300px;
+    height: 350px;
+    background: #ffd166;
+    color: #073b4c;
+    font-weight: 600;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: relative;
+    transition: all .5s ease;
+  }
+  
+  .card4::before {
+    content: "5.50$";
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 35%;
+    right: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(#fe0000);
+    border-radius: 50%;
+    background-color:  rgb(255,148,0);
+    color: #fe5100;
+    font-weight: 800;
+    transition: all .5s ease;
+  }
+  
+  .card4__image {
+    width: initial;
+    height: 150px;
+    background: rgb(255, 158, 0);
+    background: linear-gradient(163deg, rgb(255,158,0) 18%, rgb(255, 158, 0) 79%);
+    transition: all .5s ease;
+  }
+  
+  .title4 {
+    font-weight: 800;
+    font-size: 1.4em;
+  }
+  
+  .card4__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 10px;
+  }
+  
+  .card4:hover {
+    border-top-left-radius: 35px;
+    box-shadow: 5px 5px 0px 0px rgb(255, 158, 0), 10px 10px 0px 0px #fe5100, 15px 15px 0px 0px rgb(255, 158, 0), 5px 5px 15px 5px rgba(0,0,0,0);
+  }
+  
+  .card4:hover .card4__image {
+    border-top-left-radius: 25px;
+  }
+  
+  .card4:hover::before {
+    transform: scale(1.3) rotate(-30deg);
+  }
+    /* From Uiverse.io by Javierrocadev */
+    .card5 {
+        width: 300px;
+        height: 350px;
+        background: #ffd166;
+        color: #073b4c;
+        font-weight: 600;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        position: relative;
+        transition: all .5s ease;
+      }
+      
+      .card5::before {
+        content: "6.25$";
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        top: 35%;
+        right: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 5px solid rgb(#fe0000);
+        border-radius: 50%;
+        background-color:  rgb(255,148,0);
+        color: #fe5100;
+        font-weight: 800;
+        transition: all .5s ease;
+      }
+      
+      .card5__image {
+        width: initial;
+        height: 150px;
+        background: rgb(255, 158, 0);
+        background: linear-gradient(163deg, rgb(255,158,0) 18%, rgb(255, 158, 0) 79%);
+        transition: all .5s ease;
+      }
+      
+      .title5 {
+        font-weight: 800;
+        font-size: 1.4em;
+      }
+      
+      .card5__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-grow: 1;
+        gap: 10px;
+      }
+      
+      .card5:hover {
+        border-top-left-radius: 35px;
+        box-shadow: 5px 5px 0px 0px rgb(255, 158, 0), 10px 10px 0px 0px #fe5100, 15px 15px 0px 0px rgb(255, 158, 0), 5px 5px 15px 5px rgba(0,0,0,0);
+      }
+      
+      .card5:hover .card5__image {
+        border-top-left-radius: 25px;
+      }
+      
+      .card5:hover::before {
+        transform: scale(1.3) rotate(-30deg);
+      }
+        /* From Uiverse.io by Javierrocadev */
+  .card6 {
+    width: 300px;
+    height: 350px;
+    background: #ffd166;
+    color: #073b4c;
+    font-weight: 600;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: relative;
+    transition: all .5s ease;
+  }
+  
+  .card6::before {
+    content: "16.50$";
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 35%;
+    right: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(#fe0000);
+    border-radius: 50%;
+    background-color:  rgb(255,148,0);
+    color: #fe5100;
+    font-weight: 800;
+    transition: all .5s ease;
+  }
+  
+  .card6__image {
+    width: initial;
+    height: 150px;
+    background: rgb(255, 158, 0);
+    background: linear-gradient(163deg, rgb(255,158,0) 18%, rgb(255, 158, 0) 79%);
+    transition: all .5s ease;
+  }
+  
+  .title6 {
+    font-weight: 800;
+    font-size: 1.4em;
+  }
+  
+  .card6__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 10px;
+  }
+  
+  .card6:hover {
+    border-top-left-radius: 35px;
+    box-shadow: 5px 5px 0px 0px rgb(255, 158, 0), 10px 10px 0px 0px #fe5100, 15px 15px 0px 0px rgb(255, 158, 0), 5px 5px 15px 5px rgba(0,0,0,0);
+  }
+  
+  .card6:hover .card6__image {
+    border-top-left-radius: 25px;
+  }
+  
+  .card6:hover::before {
+    transform: scale(1.3) rotate(-30deg);
+  }
+ /* From Uiverse.io by Javierrocadev */
+.contenedor7{
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.card7 {
+  width: 300px;
+  height: 350px;
+  background: #ffd166;
+  color: #073b4c;
+  font-weight: 600;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  position: relative;
+  transition: all .5s ease;
+}
+          
+.card7::before {
+  content: "16.50$";
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 35%;
+  right: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid rgb(#fe0000);
+  border-radius: 50%;
+  background-color:  rgb(255,148,0);
+  color: #fe5100;
+  font-weight: 800;
+  transition: all .5s ease;
+}
+          
+.card7__image {
+  width: initial;
+  height: 150px;
+  background: rgb(255, 158, 0);
+  background: linear-gradient(163deg, rgb(255,158,0) 18%, rgb(255, 158, 0) 79%);
+  transition: all .5s ease;
+}
+          
+.title7 {
+  font-weight: 800;
+  font-size: 1.4em;
+}
+          
+.card7__content {
+display: flex;
+justify-content: center;
+flex-grow: 1;
+ gap: 10px;
+ }
+          
+ .card7:hover {
+ border-top-left-radius: 35px;         
+ box-shadow: 5px 5px 0px 0px rgb(255, 158, 0), 10px 10px 0px 0px #fe5100, 15px 15px 0px 0px rgb(255, 158, 0), 5px 5px 15px 5px rgba(0,0,0,0);
+}
+          
+.card7:hover .card7__image {
+ border-top-left-radius: 25px;
+}
+
+.card7:hover::before {
+ transform: scale(1.3) rotate(-30deg);
+ }
+ /* From Uiverse.io by Javierrocadev */
+  .card8 {
+    width: 300px;
+    height: 350px;
+    background: #ffd166;
+    color: #073b4c;
+    font-weight: 600;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: relative;
+    transition: all .5s ease;
+  }
+  
+  .card8::before {
+    content: "16.50$";
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 35%;
+    right: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(#fe0000);
+    border-radius: 50%;
+    background-color:  rgb(255,148,0);
+    color: #fe5100;
+    font-weight: 800;
+    transition: all .5s ease;
+  }
+  
+  .card8__image {
+    width: initial;
+    height: 150px;
+    background: rgb(255, 158, 0);
+    background: linear-gradient(163deg, rgb(255,158,0) 18%, rgb(255, 158, 0) 79%);
+    transition: all .5s ease;
+  }
+  
+  .title8 {
+    font-weight: 800;
+    font-size: 1.4em;
+  }
+  
+  .card8__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 10px;
+  }
+  
+  .card8:hover {
+    border-top-left-radius: 35px;
+    box-shadow: 5px 5px 0px 0px rgb(255, 158, 0), 10px 10px 0px 0px #fe5100, 15px 15px 0px 0px rgb(255, 158, 0), 5px 5px 15px 5px rgba(0,0,0,0);
+  }
+  
+  .card8:hover .card8__image {
+    border-top-left-radius: 25px;
+  }
+  
+  .card8:hover::before {
+    transform: scale(1.3) rotate(-30deg);
+  }
+   /* From Uiverse.io by Javierrocadev */
+ .card9 {
+width: 300px;
+height: 350px;
+background: #ffd166;
+color: #073b4c;
+font-weight: 600;
+padding: 15px;
+display: flex;
+flex-direction: column;
+align-items: left;
+position: relative;
+transition: all .5s ease;
+}
+          
+.card9::before {
+content: "16.50$";
+position: absolute;
+width: 75px;
+height: 75px;
+top: 35%;
+right: 2px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 5px solid rgb(#fe0000);
+border-radius: 50%;
+background-color:  rgb(255,148,0);
+color: #fe5100;
+font-weight: 800;
+transition: all .5s ease;
+}
+          
+.card9__image {
+width: initial;
+height: 150px;
+background: rgb(255, 158, 0);
+background: linear-gradient(163deg, rgb(255,158,0) 18%, rgb(255, 158, 0) 79%);
+transition: all .5s ease;
+}
+          
+.title9 {
+font-weight: 800;
+font-size: 1.4em;
+}
+          
+.card9__content {
+display: flex;
+flex-direction: column;
+justify-content: center;
+flex-grow: 1;
+gap: 10px;
+}
+          
+.card9:hover {
+border-top-left-radius: 35px;
+box-shadow: 5px 5px 0px 0px rgb(255, 158, 0), 10px 10px 0px 0px #fe5100, 15px 15px 0px 0px rgb(255, 158, 0), 5px 5px 15px 5px rgba(0,0,0,0);
+}
+          
+.card9:hover .card9__image {
+border-top-left-radius: 25px;
+}
+          
+.card9:hover::before {
+transform: scale(1.3) rotate(-30deg);
+}
+.divicion{
+  height: vh;
+
+}
+.gool{
+  height: 90vh;
+}
+
+
